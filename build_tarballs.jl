@@ -45,13 +45,8 @@ make install
 platforms = [
     BinaryProvider.Linux(:i686, :glibc, :blank_abi),
     BinaryProvider.Linux(:x86_64, :glibc, :blank_abi),
-    BinaryProvider.Linux(:aarch64, :glibc, :blank_abi),
     BinaryProvider.Linux(:armv7l, :glibc, :eabihf),
     BinaryProvider.Linux(:powerpc64le, :glibc, :blank_abi),
-    BinaryProvider.Linux(:i686, :musl, :blank_abi),
-    BinaryProvider.Linux(:x86_64, :musl, :blank_abi),
-    BinaryProvider.Linux(:aarch64, :musl, :blank_abi),
-    BinaryProvider.Linux(:armv7l, :musl, :eabihf),
     BinaryProvider.MacOS(:x86_64, :blank_libc, :blank_abi),
     BinaryProvider.Windows(:i686, :blank_libc, :blank_abi),
     BinaryProvider.Windows(:x86_64, :blank_libc, :blank_abi)
